@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+  background-color: #87cefa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  border-radius: 10px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  color: #87cefa;
+  height: 10%;
+  padding: 10px;
+  border-bottom: solid 2px rgb(207, 207, 207);
+  display: flex;
+  align-items: center;
+}
+
+.weatherApp {
+  height: 70%;
+  font-size: 25px;
+  padding: 20px;
+  line-height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.weatherParameters {
+  width: 500px;
+  height: 100px;
+  font-size: 20px;
+  border-top: solid 2px rgb(207, 207, 207);
+  display: flex;
+  align-items: center;
+}
+
+.weatherApp i {
+  color: blue;
+  font-size: 130px;
+  padding: 15px;
+}
+
+.weatherApp h1 {
+  padding: 10px;
+  font-size: 65px;
+}
+
+.weatherFeeling {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherHumidity {
+  height: 100%;
+  width: 50%;
+  border-left: solid 2px rgb(207, 207, 207);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherHumidity i {
+  padding: 10px;
+}
+
+.weatherFeelingBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherHumidityBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weatherParameters i {
+  color: blue;
+  font-size: 40px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App</title>
+        <link href="weatherApp.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <div class = "container">
+                <div class = "title">
+                    <head2><i class="bi-arrow-left-short"></i>Weather App</head2>
+                </div>
+                <div class="weatherApp">
+                    <i class="bi-cloud-sun"></i>
+                   <h1 id = "headerDeg"><p></p></h1>
+                    <p class ="findWeather"></p>
+                    <div class = "location">
+                        <p><div class="bi-geo-alt" ><t class ="findCity"></t></div></p>
+                    </div>
+                </div>
+                <div class = "weatherParameters">
+                    <div class = "weatherFeeling">
+                        <i class="bi-thermometer-sun"></i>
+                        <div class = weatherFeelingBox>
+                            <head3 id = "deg"></head3>
+                            <p>Feels Like</p>
+                        </div>
+                    </div>
+                    <div class = "weatherHumidity">
+                        <i class="bi-moisture"></i>
+                        <div class = weatherHumidityBox>
+                            <head3 id = "humidity"></head3>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <script src = "weatherApp.js">changeWeatherParameters()</script>
+    </body>
+</html>
